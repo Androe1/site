@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Font1';
+    src: url('font/Azonix.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Font2';
+    src: url('font/PRIMETIME\ ©\ PERSONAL\ USE\ ONLY.ttf') format('opentype');
+}
+@font-face {
+    font-family: 'Font3';
+    src: url('font/Course.ttf') format('opentype');
+}
+@font-face {
+    font-family: 'Font4';
+    src: url('font/nasalization-rg.otf') format('opentype');
+}
+
+@keyframes color-change {
+    0% {
+      color: #0793de;
+    }
+    30% {
+        color: #4947b8;
+      }
+
+    50% {
+      color: #605ab6;
+    }
+    70% {
+        color: #328dd7;
+      }
+    100% {
+      color: #0793de;
+    }
+}
+
+body {
+    font-size: 12px;
+    background: linear-gradient(#524bb7, #1e023a);
+    color: #ffffff;
+    text-align: center;
+}
+
+h1 {
+    color: #0793de;
+    font-size: 30px;
+    font-family: 'Font1';
+}
+
+h1:hover{
+    animation: color-change 5s infinite;
+
+}
+
+h2 {
+    color: #605ab6;
+    text-decoration-color: #ffffff;
+    font-size: 16px;
+    font-family: 'Font2';
+}
+h2:hover{
+    font-size: 25px;
+    animation: alternate 3s;
+}
+p {
+    color: #ffffff;
+    font-size: 14px;
+}
+iframe {
+    text-align: flex-end;
+}
